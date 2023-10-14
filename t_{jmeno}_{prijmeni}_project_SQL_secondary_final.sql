@@ -1,0 +1,1 @@
+-- dodatečná data o dalších evropských státech
