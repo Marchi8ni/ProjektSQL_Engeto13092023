@@ -67,10 +67,8 @@ JOIN (
 		ORDER BY
 			payroll_year
 ) d 
-ON
-		c.payroll_year = d.payroll_year + 1
+ON c.payroll_year = d.payroll_year + 1
 	GROUP BY
 		payroll_year
 ) pp
-ON
-	gdp.`year` = pp.payroll_year
+ON gdp.`year` = pp.payroll_year;
